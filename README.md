@@ -2,7 +2,7 @@
 example flask script to print "Hello World" on website
 
 <h2>Requirements</h2> 
-Python 3.9 <br>
+ <br>
 flask 2.1
 
 <h2>Make virtualenv</h2>
