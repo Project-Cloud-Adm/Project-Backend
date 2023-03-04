@@ -4,7 +4,6 @@ app = Flask(__name__)
 
 ''' Endpoint / '''
 @app.route('/')
-"""Docstrig"""
 def hello_world():
     return 'Hello, World!'
 
