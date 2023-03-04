@@ -1,14 +1,16 @@
+'''FlaskApp'''
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-''' Endpoint / '''
+''' Endpoint '''
 @app.route('/')
-#endpoint
+''' Endpoint '''
 def hello_world():
     return 'Hello, World!'
 
-''' Endpoint /hello '''
+
+''' Endpoint hello '''
 @app.route('/hello', methods=['GET', 'POST'])
 def hello():
     if request.method == 'GET':
