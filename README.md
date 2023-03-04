@@ -17,6 +17,6 @@ activation on Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 <h2>To run app</h2>
-python3 app.py<br>
-Go to the website 127.0.0.1:5000 to show enpoint "/" <br>
-To show endpoint /hello go to 127.0.0.1:5000/hello
+python3 app.py<br><br>
+Go to the website 127.0.0.1:5000 to show enpoint "/" <br><br>
+To show endpoint "/hello" go to 127.0.0.1:5000/hello
