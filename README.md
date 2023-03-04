@@ -3,7 +3,8 @@ example flask script to print "Hello World" on website
 
 <h2>Requirements</h2> 
  <br>
-flask 
+flask <br>
+pylint
 
 <h2>Make virtualenv</h2>
 
