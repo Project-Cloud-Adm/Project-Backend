@@ -3,16 +3,16 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-
-''' Endpoint '''
+'''
+Endpoint /
+'''
 @app.route('/')
 def hello_world():
+    '''Endpoint'''
     return 'Hello, World!'
-
-
-''' Endpoint hello '''
 @app.route('/hello', methods=['GET', 'POST'])
 def hello():
+    '''Endpoint'''
     if request.method == 'GET':
         return render_template('hello.html')
     if request.method == 'POST':
