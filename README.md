@@ -1,5 +1,5 @@
 # Project-Backend
-example flask script to print "Hello World" on website
+Flask Script with two endpoints to print Hello, World and Hello <Name> on website
 
 <h2>Requirements</h2> 
  <br>
