@@ -3,10 +3,11 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 @app.route('/')
+'''Endpoint /'''
 def hello_world():
     return 'Hello, World!'
 
-
+'''Endpoint /hello'''
 @app.route('/hello', methods=['GET', 'POST'])
 def hello():
     if request.method == 'GET':
@@ -18,3 +19,4 @@ def hello():
 
 if __name__ == '__main__':
     app.run()
+    
