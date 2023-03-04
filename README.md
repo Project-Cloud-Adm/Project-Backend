@@ -3,7 +3,7 @@ example flask script to print "Hello World" on website
 
 <h2>Requirements</h2> 
  <br>
-flask 2.1
+flask 
 
 <h2>Make virtualenv</h2>
 
@@ -14,4 +14,9 @@ activation on Windows: venv\Scripts\activate
 
 <h2>Install Requirements</h2>
 
-pip install requirements.txt
+pip install -r requirements.txt
+
+<h2>To run app</h2>
+python3 app.py<br>
+Go to the website 127.0.0.1:5000 to show enpoint "/" <br>
+To show endpoint /hello go to 127.0.0.1:5000/hello
